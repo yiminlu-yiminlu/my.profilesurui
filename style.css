@@ -1,0 +1,165 @@
+
+ body{
+background-color: pink;
+  font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    font-style: initial;
+    color: rgba(0, 0, 0, 0.668);
+}
+  h1, h2, h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  h1{
+    color: black;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-decoration-line: underline;
+    text-align: center;
+    
+  }
+  
+  h2{
+  text-align: center;
+  color: pink;
+  font-style: italic;
+  font-size: 30px;
+  }
+  
+  a{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  a:hover{
+    text-decoration: underline;
+    color: black;
+  }
+  
+  Customs with class /
+  
+  .container{
+    width: 600px;
+    margin: 40px auto;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  @media(max-width:500px) {
+  .container{
+  width: 400px;}
+  }
+  
+  @media (max-width: 760px) {
+    .container{
+      width: 600px;}
+  }
+  
+  .card-white{
+    background-color: white;
+    padding: 60px;
+    box-shadow: 0px 10px 30px black;
+    margin: 50px;
+    border-radius: 4px;
+    text-align: center;
+    }
+    
+  .img-circle{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    display: block;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  .btn-orange{
+    background-color:black;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+  }
+  
+  .btn-orange i:hover{
+    color: white;
+  }
+  
+  .list-items{
+    list-style: none;
+  }
+  
+  .list-inline{
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .list-inline li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 20px;
+  }
+  
+  .list-inline i {
+    font-size: 50px;
+    color:pink;
+  }
+  
+  .list-inline i:hover{
+  color: pink;
+  }
+  
+  .img-profile {
+    border-radius: 50%;
+    width: 100%;
+    height: auto; 
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+
+img{
+  max-width: 300px;
+  max-width: 300px;
+  width: 50;
+  height: 50;
+  border-radius: 50%;
+}
+
+
+div{
+  display: block;
+  background: rgb(245, 245, 245) ;
+  padding: 60px;
+  margin: 50px;
+  box-shadow: 0px 10px 30px rgba(120, 161, 194, 0.3);
+  border-radius: 4px;
+  }
+
+
+p{
+  text-align: center;
+}
+
+ul{
+  text-align: center;
+}
+
+
+figure {
+  text-align: center;
+  margin: 50px;
+}
+
+figcaption {
+  margin-top: 10px;
+  color: #0000009c;
+  font-weight: bold;
+  font-size: 20px;
+}
